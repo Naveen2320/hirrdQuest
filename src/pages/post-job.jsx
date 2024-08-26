@@ -91,7 +91,7 @@ const PostJob = () => {
         
   
 
-        <div className="flex gap-4 items-center">
+        <div className="flex flex-col md:flex-row flex-wrap gap-4 items-center">
 
       {/* cgpa shortlisting features */}
         <Input placeholder="Enter CGPA Criteria (0-10)" type="number" step="0.1" {...register("cgpa_criteria",{ valueAsNumber: true })} />
