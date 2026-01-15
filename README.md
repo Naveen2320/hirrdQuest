@@ -3,7 +3,7 @@
 ---
 
 ## Problem Statement
-
+  
 In modern recruitment systems, candidates often struggle to find job opportunities that match their academic eligibility and preferences, while recruiters face difficulty shortlisting suitable applicants from a large pool.  
 Existing platforms lack intelligent filtering, secure authentication, and real-time interaction, leading to inefficient hiring and reduced engagement.
 
