@@ -45,6 +45,7 @@ Recruiters can manage job postings, filter applicants efficiently, and communica
 
 ![Landing Page](./screenshots/landing-page.png)
 
+
 The landing page introduces **Hirrd-Quest** with a modern and minimal UI.  
 Users can explore the platform, find job opportunities, or post jobs.  
 Clear call-to-action buttons guide candidates to search for jobs and recruiters to post openings.
@@ -85,22 +86,9 @@ This helps users quickly find relevant job opportunities.
 
 ---
 
-### Job Details Page
-
-![Job Details](./screenshots/job-details.png)
-
-Each job listing has a detailed view displaying:
-- Job description  
-- Company information  
-- Location and application status  
-
-Candidates can review requirements before applying.
-
----
-
 ### Job Application Form
 
-![Job Application](./screenshots/job-application.png)
+![Job Details](./screenshots/job-details.png)
 
 Candidates can apply for jobs by submitting:
 - Years of experience  
@@ -113,12 +101,128 @@ The structured form ensures **standardized and fair evaluation** by recruiters.
 
 ---
 
-### Application Submission
+### Recruiter – Post a Job
+![Post a Job](./screenshots/post-a-job.png)
 
-![Application Submitted](./screenshots/application-submitted.png)
+- Post jobs with role details and CGPA eligibility  
+- Filter candidates by location and company  
+- Secure recruiter-only access for job posting  
 
-After successful submission, candidates receive confirmation that their application has been recorded.  
-Recruiters can view and manage applications from their dashboard.
 
 ---
+
+## Major Features
+
+### 1. Google OAuth Authentication
+**Description:** Secure login using Google OAuth via Clerk Authentication.  
+**Why Added:** Prevents fake users and ensures verified access.  
+**Tech Stack:**  
+- Clerk Authentication  
+- Google OAuth 2.0  
+
+---
+
+### 2. Role-Based Access Control
+**Description:** Separate dashboards and permissions for candidates and recruiters.  
+**Why Added:** Ensures secure actions like job posting and job applications.  
+**Tech Stack:**  
+- Supabase  
+- Express.js  
+
+---
+
+### 3. Job Search & Filtering System
+**Description:** Candidates can search and filter jobs by CGPA, location, and company.  
+**Why Added:** Improves job relevance and reduces search time significantly.  
+**Tech Stack:**  
+- React.js  
+- Supabase  
+
+---
+
+### 4. Job Posting System (Recruiter)
+**Description:** Recruiters can post jobs with eligibility criteria and requirements.  
+**Why Added:** Streamlines hiring and reduces unqualified applications.  
+**Tech Stack:**  
+- React.js  
+- Express.js  
+
+---
+
+### 5. Job Application System
+**Description:** Candidates can apply by submitting experience, skills, CGPA, and resume details.  
+**Why Added:** Enables structured and fair candidate evaluation.  
+**Tech Stack:**  
+- React.js  
+- Express.js  
+- Supabase  
+
+---
+
+## Challenges & Solutions
+
+### Unauthorized Access
+**Challenge:** Preventing candidates from accessing recruiter-only features.  
+**Solution:** Implemented role validation before every protected action.
+
+### Backend Data Handling
+**Challenge:** Empty request body while submitting forms.  
+**Solution:** Added `express.json()` middleware to parse incoming JSON data.
+
+### Secure Authentication
+**Challenge:** Avoiding fake accounts and unauthorized access.  
+**Solution:** Integrated Google OAuth with Clerk Authentication.
+
+---
+
+## Technologies Used
+
+- **React.js** – Frontend UI  
+- **Tailwind CSS** – Responsive styling  
+- **Express.js** – Backend framework  
+- **Supabase** – Database & role management  
+- **Clerk Authentication** – Secure authentication  
+- **Google OAuth 2.0** – Verified login system  
+
+---
+
+## Architecture
+
+- Client–Server Architecture  
+- RESTful APIs  
+- Role-Based Access Control  
+- Secure Authentication Flow  
+
+---
+
+## Future Enhancements
+
+- AI-based job recommendations  
+- Recruiter analytics dashboard  
+- Resume parsing and skill matching  
+- Email notifications for job updates  
+
+---
+
+## Feedback / Bugs / Contributions
+
+📧 Email: naveenkumar6885268@gmail.com
+
+---
+
+## License
+
+This project is developed for educational purposes only and is not intended for commercial use.
+
+---
+
+
+
+<p align="center">
+  Created with ❤️ by <br>
+  <strong>Naveen Kumar</strong> <br>
+  Full Stack Developer | MERN | DSA | Cybersecurity Enthusiast
+</p>
+
+
 
