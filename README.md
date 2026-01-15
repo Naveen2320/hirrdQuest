@@ -32,8 +32,93 @@ Recruiters can manage job postings, filter applicants efficiently, and communica
 
 ## Live Project
 
-- 🌐 **Live Website:** [Hirrd-Quest Live](https://your-live-link.com)
-- 💻 **GitHub Repository:** [Hirrd-Quest GitHub](https://github.com/your-username/hirrd-quest)
+- 🌐 **Live Website:** [Hirrd-Quest Live](https://hirrd-quest-1.vercel.app/)
+- 💻 **GitHub Repository:** [Hirrd-Quest GitHub](https://github.com/Naveen2320/hirrd-quest)
+
+---
+
+## Project Walkthrough
+
+---
+
+### Landing Page
+
+![Landing Page](./screenshots/landing-page.png)
+
+The landing page introduces **Hirrd-Quest** with a modern and minimal UI.  
+Users can explore the platform, find job opportunities, or post jobs.  
+Clear call-to-action buttons guide candidates to search for jobs and recruiters to post openings.
+
+---
+
+### Authentication (Google OAuth & Clerk)
+
+![Login Page](./screenshots/login.png)
+
+Users securely authenticate using **Google OAuth powered by Clerk Authentication**.  
+This ensures **verified access**, prevents fake accounts, and provides a seamless login experience.
+
+---
+
+### Role Selection (Candidate / Recruiter)
+
+![Role Selection](./screenshots/role-selection.png)
+
+After authentication, users select their role as either:
+- **Candidate** – to apply for jobs  
+- **Recruiter** – to post and manage job listings  
+
+This enables **role-based access control** across the platform.
+
+---
+
+### Job Listings & Search
+
+![Job Listings](./screenshots/job-listings.png)
+
+Candidates can browse the **latest job openings** with:
+- Search by job title  
+- Filter by location  
+- Filter by company  
+
+This helps users quickly find relevant job opportunities.
+
+---
+
+### Job Details Page
+
+![Job Details](./screenshots/job-details.png)
+
+Each job listing has a detailed view displaying:
+- Job description  
+- Company information  
+- Location and application status  
+
+Candidates can review requirements before applying.
+
+---
+
+### Job Application Form
+
+![Job Application](./screenshots/job-application.png)
+
+Candidates can apply for jobs by submitting:
+- Years of experience  
+- Skills  
+- CGPA  
+- Education level  
+- Resume upload  
+
+The structured form ensures **standardized and fair evaluation** by recruiters.
+
+---
+
+### Application Submission
+
+![Application Submitted](./screenshots/application-submitted.png)
+
+After successful submission, candidates receive confirmation that their application has been recorded.  
+Recruiters can view and manage applications from their dashboard.
 
 ---
 
