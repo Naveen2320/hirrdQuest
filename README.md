@@ -4,7 +4,7 @@
  
 ## Problem Statement
   
-In modern recruitment systems, candidates often struggle to find job opportunities that match their academic eligibility and preferences, while recruiters face difficulty shortlisting suitable applicants from a large pool.  
+In older recruitment systems, candidates often struggle to find job opportunities that match their academic eligibility and preferences, while recruiters face difficulty shortlisting suitable applicants from a large pool.  
 Existing platforms lack intelligent filtering, secure authentication, and real-time interaction, leading to inefficient hiring and reduced engagement.
 
 Hirrd-Quest addresses this gap by providing a secure, authenticated, and structured job recruitment platform that improves job–candidate matching and streamlines the hiring process.
